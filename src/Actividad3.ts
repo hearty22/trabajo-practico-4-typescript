@@ -18,7 +18,7 @@ orderStatus: 'pending'
 // mensaje que incluya el nivel y el mensaje.
 
 enum LogLevel {
-    Info, Warning, Error
+    Info = "Info", Warning = "Warning", Error = "Error"
 };
 function logMessage(level: LogLevel, message: string): void {
     console.log("ACTIVIDAD 3: Nivel de log:", level, "Mensaje:", message);
