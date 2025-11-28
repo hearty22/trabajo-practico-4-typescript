@@ -15,4 +15,4 @@ const updateStock = (currentStock: number, quantityChange: number): number =>{
 
 let stockPhones : number = 4; let phoneQuantitychange : number = 89;
 
-console.log(updateStock(stockPhones, phoneQuantitychange));
+console.log("nuevo stock", updateStock(stockPhones, phoneQuantitychange));
